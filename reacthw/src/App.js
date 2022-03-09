@@ -4,7 +4,7 @@ import BasicInfo from "./components/BasicInfo";
 class App extends Component {
   constructor(props) {
     super();
-    //Creating the state and assigning an array of objects inside
+    //Created array of objects with dummy data
     this.state = {
       person: [
         {
