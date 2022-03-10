@@ -5,9 +5,9 @@ const BasicInfo = ({ people }) => {
     <>
       {people.map((data) => (
         <div className="styling">
-          <p>{data.FN}</p>
-          <p>{data.LN}</p>
-          <p>{data.number}</p>
+          <li>{data.FN}</li>
+          <li>{data.LN}</li>
+          <li>{data.number}</li>
         </div>
       ))}
     </>
